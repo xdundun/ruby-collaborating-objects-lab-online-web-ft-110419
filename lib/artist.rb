@@ -1,3 +1,3 @@
 class Artist
 
-end
+end #end of class
