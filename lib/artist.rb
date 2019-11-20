@@ -17,10 +17,10 @@ class Artist
 
   def self.find_or_create_by_name(name)
       Artist.all.select {|artist| artist.name == name }
+
     else
-      self.artist.name = name
-      #artist = Artist.new(name)
-       #return artist
+      artist = Artist.new(name)
+       return artist
     end
   end
 
