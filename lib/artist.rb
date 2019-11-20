@@ -20,8 +20,9 @@ class Artist
       self.artist = Artist.new(name)
     #  Artist.all.select {|artist| artist.name == name }
     else
-      artist = Artist.new(name)
-       return artist
+      self.artist.name = name
+      #artist = Artist.new(name)
+       #return artist
     end
   end
 
