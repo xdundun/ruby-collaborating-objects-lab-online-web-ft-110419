@@ -21,7 +21,7 @@ class Artist
         return artist}
 
     else
-      self.artist = Artist.new(name)
+      self.new(name)
        return artist
     end
   end
