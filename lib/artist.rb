@@ -20,7 +20,7 @@ class Artist
       Artist.all.select {|artist| artist.name == name }
     else
       artist = Artist.new(name)
-      artist
+       return artist
     end
   end
 
