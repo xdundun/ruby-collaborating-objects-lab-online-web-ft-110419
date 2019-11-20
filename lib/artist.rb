@@ -20,6 +20,7 @@ class Artist
       self.artist = Artist.new(name)
     else
       self.artist
+    end
   end
 
   def self.all
