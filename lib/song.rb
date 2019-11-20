@@ -15,4 +15,7 @@ class Song
     artist.name if artist
   end
 
+  def self.new_by_filename(filename)
+  end
+
 end #end of class
