@@ -1,6 +1,6 @@
 class Artist
   attr_accessor :name
+  @@all = []
 
-@@all = []
 
 end #end of class
