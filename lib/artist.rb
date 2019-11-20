@@ -21,6 +21,7 @@ class Artist
     else
       artist = Artist.new(name)
       artist
+    end
   end
 
   def self.all
