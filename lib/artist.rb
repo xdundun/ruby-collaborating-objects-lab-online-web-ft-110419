@@ -26,4 +26,7 @@ class Artist
   def self.all
     @@all
   end
+
+  def print_songs
+    self.songs.map {|song|
 end #end of class
