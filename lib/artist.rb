@@ -18,7 +18,8 @@ class Artist
   def self.find_or_create_by_name(name)
     Artist.all.select {|artist|
       if artist.name == self
-      return self}
+      return self
+    end}
 
   end
 
