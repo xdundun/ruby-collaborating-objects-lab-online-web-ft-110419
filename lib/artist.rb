@@ -22,7 +22,7 @@ class Artist
 
     else
       self.new(name)
-       return artist
+
     end
   end
 
