@@ -20,6 +20,7 @@ class Artist
       Artist.all.select {|artist| artist.name == name }
     else
       artist = Artist.new(name)
+      artist
   end
 
   def self.all
